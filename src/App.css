@@ -1,0 +1,42 @@
+body{
+  background-color: #ccc;
+  font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  max-width: 500px;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.num button {
+  background-color: #f4f4f4;
+  color: #000;
+  border: 1px solid black;
+  padding: 10px 5px;
+  width: 25%;
+  background-color: #adb5bd;
+  cursor: pointer;
+  font-size: 20px;
+}
+.num button:active{
+  scale: 0.92;
+}
+
+.num {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.header {
+  width: 470px;
+  text-align: center;
+  background-color: #6c757d;
+  font-size: 25px;
+  text-align: end;
+  height: 100px;
+}
